@@ -1,6 +1,6 @@
 import React,{Component} from 'react';
 import {Card,CardBody,CardHeader,Label,CardText,Button,Modal,ModalBody,ModalHeader,FormGroup} from 'reactstrap';
-import { Control, LocalForm, Errors } from 'react-';
+import { Control, LocalForm, Errors } from 'react-redux-form';
 
 const required = (val) => val && val.length;
 const maxLength = (len) => (val) => !(val) || (val.length <= len);
